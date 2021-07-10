@@ -1,4 +1,9 @@
 import galleryItems from "./app.js";
+// const Joi = require("joi");
+// const shortid = require("shortid");
+// const passwordSchema = Joi.string().min(5).max(10).alphanum();
+// console.log(passwordSchema.validate("fghd"));
+// console.log(shortid.generate());
 
 const refs = {
   gallery: document.querySelector(".gallery"),
@@ -106,3 +111,4 @@ const onGalleryNavBtnPress = (arr) => (e) => {
 refs.gallery.addEventListener("click", onOpenOriginalImageClick);
 refs.modal.addEventListener("click", onCloseOriginalImageClick);
 window.addEventListener("keydown", onGalleryNavBtnPress(imgSrcs));
+console.log("hello");

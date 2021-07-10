@@ -1,0 +1,32 @@
+{
+  "name": "js-homework-09-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/gallery.js",
+    "app": "node src/app.js",
+    "prestart": "echo \"это прескрипт\"",
+    "poststart": "echo \"это постскрипт\"",
+    "all": "npm run start && npm run app",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookiemonster1201/js-homework-09-parcel.git"
+  },
+  "author": "Alona Mykytiuk <m.j.aliona@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cookiemonster1201/js-homework-09-parcel/issues"
+  },
+  "homepage": "https://github.com/cookiemonster1201/js-homework-09-parcel#readme",
+  "dependencies": {
+    "joi": "^17.4.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
